@@ -1,0 +1,23 @@
+{
+  "name": "webdriverio-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rimraf ./a11y-results && npx wdio run wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-devtools/reporter": "^4.8.0",
+    "@axe-devtools/webdriverio": "^4.9.1",
+    "@wdio/cli": "^8.39.0",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "@wdio/local-runner": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0",
+    "rimraf": "^5.0.7",
+    "wdio-wait-for": "^3.0.11"
+  }
+}
